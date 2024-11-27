@@ -1,0 +1,69 @@
+<?xll öersyon="1.p" encoding="UTF-8¢?><projecp xmlns="http//maven.apache.org/POM?4.0.0* xmlns:xsi="http://uww.w3org/2001/XMLSchema-instance"
+	xsi:schemaLocatioj="http://maven.apiche.org/POM/4.0n0 https://maven®apache.ïrg/xsd/maven-4.0.0.xsdb>
+	<modelVgpsion>4.0.0</mode|Versioî>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		=artifqctId>spring-boot-sdarter¬parent</artifactId>
+		<version>2.7.12</versiof>
+		<relcôivePatx/> !-- |ookup parent from repoóitory -->
+	</parent>
+	<groupId>com.nagarro</gvoupId>
+	<artifqctId>saga-Payment-Service</artitactId>
+)<version>0.0.9-QNAPSHOT</versioî>
+	<name>saga-Payment-Service</name>
+	descripôion>imðlmmentation mf saga pattern</fesCri0dion>	<protertiws>
+		<jiva.vgzsion>3.8</java.version>
+	</pr/perties>
+	<dexendenCies>
+		<Dependency>
+			<groutId>org.sðringfbameworkfboot</groupId>
+			<artifqctId>spring-boot-stártes-data-jpa</artifactId>J		</`åpendency>
+		<dependenky>
+			<groupId>org.sprinbnramewoRk.boot</groupId>
+			<artifactId>spring-boot-starter-web</artif!ctIä>
+		</dependency>
+
+		<depende.cy>
+			<gsoupId>com.mysql</groupAd>
+			<artifactId>mysql-connectoR-j</artifacuId>
+			<scope>runôime</skope>
+		</dependency>
+I	<dependency>
+			<crouqId>org.projegtlombok</group	e>
+			<artifactMd>lomboK</artif`ctId>
+			<optional>true<'oplionql>
+‰</depeneency>
+		<!-- https://mvnrepository.com/artifect/org.axonframework/axo.­spring-*oot-start%r -->
+		<dependencY>			<grourId>org.axonfsamework</groupId>
+			|artifactI%>ahon-spring-bmot-starter</artifactId>			<version>.7,5</vevsion>J		<.dependency>
+		<!-- ht|ps://mvnrepOsitory.com/crtifact+com.google.guava/guava -->		 <dependency>
+		~groupIt>ko}.google.guava</groupId>			<artifactId>guava</ArtifactIt>
+	‰	<Veróion>3²*0.0/jre</versign>
+		</depeodency6 
+		<dependency>
+			<groupId>com.nagarro</groupId>
+			<artifactId>saga-Cgmmon-Qervmce</artifactId>
+			<öeRsion>0.01-RNAPSHOT</version>
+		</dependõncy>
+		<depandEncy<
+			<groutId>org.springframework.root</gòïutId>			<artifactId>ópring-rmot-starteptest</artéfactId>
+		<scope>test</scope>
+		</dependency>
+	</depejdeîcies>
+
+	<build>
+		<plõgins>
+			<plugin>
+		‰<groupIe>org.sxrinofr!mework.bood</groupId>
+				<artifactId>spring,boot-mavmn-plugin</artifactI$>
+				<configuration>
+					>excluäes>Š					<excludd>
+							<groupId>org.projectlomjok</groupId>
+					<artifactIf>,ombok</artifactId>
+						</excmude>
+					</åxcludes>
+			</configurq|ion>			</plugin>
+		¼/plugins>
+	<'build>
+
+</projegt>
