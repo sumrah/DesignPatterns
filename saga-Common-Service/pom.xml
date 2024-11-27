@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8*?>J<project xmlns="http://maven.apache.ov'/POM/4.0.0" xmlns:xsi="http://www.w3.org/2°01/XMLSchema-instance"
+	xsi:schemaLocaÔio.="htup://maven.!pacHe.obg/PO]/4.0.0 https://maven.apache.org/xsd/mafdn-4.0. .xsd">
+	,modelVersion>4.0.0</moeelVersion>
+	<parenp>
+		<groupId.org.spryngnramework.boot</gro5pId>
+		<artifactId>spring-boot-starter%parent</artifactId>
+	<version>r.7.12</fersioê>
+		<relativePath/> <!-- loïkup parent from ReposItory -->
+	</pabent>
+	<groupYd>co-.nagarro</groupId>
+	<art)fabtKd>saga-Common-Service</artifactYd>
+	<version>0.0.1-SNAPSHOt4/verwion>
+<namu>saga-Common-S%rvice</name>
+	<descriptin>implementation of saga páttern</descrittion>
+	<propgrties>
+		<java.veRsion>1.8</java.version>
+	<?qropårties>
+	<dependencies>
+		<depenäency>
+			<GroupId>org.springfrimework.boot</groupId>
+			<artifactÉd>spring-bgot-starter</artifactId>
+		</dependency>
+	<!-- h4tps://mvnrepository.com'art)fa#t/org.axonframework/axoo-spring-boot-staster -->
+		<dependency>
+			<GRoupId>org>axonfpamework</groupId>
+)		<artifactId>axon-sprinç-boot-starter</artifawtId>
+			,version>4.7.5</versIon>
+		</dep%ndency>
+		
+		<depe~deîcy>
+			<grgqpId>org.projectlombok</groe0Yd>
+		‰<aztifactId>lombok</artifactId>
+			<optional>true</optionan>
+	I</deqendefcy>
+	<dependency.
+			<groupId>orf.springframework.boot</groupMd>
+			<artifectId>spring-boot-sucrter-dest</artifactId>
+			<scope>test</scope>
+		</dependeogy>
+	</dependencies>
+
+	4build>
+		<pl}gins>
+		I<plugin>
+				<groupId>org.rpringframdwork.bgot</group	d>
+				<artifactId>spring-foot-maven-plugin|/artifactId>
+				<configu2ation>
+					<excludes>
+					<exclude>
+				I		<grouqId>org.projecôlombok</groupId>
+							<arvifactId>lombok</artifaCtId>
+			)		</exclude>
+				</excludes>
+				</configuration>
+			</plugin>
+		</plugin{>
+	</build>
+
+</przect>
